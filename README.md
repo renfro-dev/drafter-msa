@@ -89,3 +89,67 @@ Checks:
 - Public/open-access templates only; cite source URLs in manifest.
 
 
+
+### Multi-repo architecture (core + product repos)
+
+To make each drafting template easy to develop in Cursor and deploy to Replit, use a small shared core plus one repo per product.
+
+- **drafter-core (shared)**: helpers for schema validation, manifest utilities, feedback engine, QA checks, and common I/O patterns.
+- **Product repos (one per template/jurisdiction)**: e.g., `drafter-florida-msa`, `drafter-texas-msa`. Each contains the product’s templates/clauses and a thin runner (CLI and/or minimal web endpoint) depending on `drafter-core`.
+
+Benefits:
+- Faster indexing and snappier Cursor perf per repo
+- Independent deploys and secrets in Replit
+- Clean versioning and review per product
+
+#### New product quickstart
+1) Create a new repo: `drafter-<jurisdiction>-<doc>` (e.g., `drafter-florida-msa`).
+2) Add a thin runner:
+   - CLI (Python): a `render_*.py` like the Florida example that reads validated intake and writes `drafts/<jurisdiction>/...`.
+   - Optional web: minimal FastAPI/Express POST endpoint that returns the rendered draft.
+3) Bring product-specific templates/clauses only:
+   - `templates/<jurisdiction>/<product>.md`
+   - `templates/clauses/<jurisdiction>/**`
+4) Depend on `drafter-core` for: schema validation, feedback engine, QA, manifest helpers (once extracted).
+
+#### Replit config (recommended)
+Add these files so imports are one-click and environments are pinned.
+
+`.replit`
+```ini
+run = "bash -lc 'npm i && npx playwright install chromium; python3 scripts/qa/validate.py || true; python3 scripts/mock/render_florida_msa.py --index_with_children 0 --index_no_children 1'"
+```
+
+`replit.nix`
+```nix
+{ pkgs }: {
+  deps = [
+    pkgs.nodejs_20
+    pkgs.python311
+    pkgs.python311Packages.pip
+    pkgs.git
+    pkgs.bash
+  ];
+}
+```
+
+Tips:
+- Keep `drafts/` gitignored and print the final output path after each run.
+- Provide `--offline` to use cached `templates/raw/` and avoid network.
+- For Playwright on Replit, install Chromium on boot: `npx playwright install chromium`.
+
+#### Migration plan from this repo
+1) Create `drafter-core` and extract shared code:
+   - `scripts/feedback/`, `scripts/qa/`, `scripts/schema/`, and cross-cutting utilities.
+   - Keep `templates/manifest.json` format and helpers in core.
+2) Productize per repo (e.g., `drafter-florida-msa`):
+   - Move `templates/florida/**` and relevant `templates/clauses/florida/**`.
+   - Provide a `render_florida_msa.py` CLI and optional minimal web endpoint.
+3) Wire product repo to `drafter-core` via package (preferred) or git subtree.
+4) Add `.replit` and `replit.nix` to each product for one-click runs.
+
+#### CI sanity (per repo)
+- Validate schema and manifest: `python3 scripts/qa/validate.py`
+- Type-check and dry-run render without network
+- Block merges if required metadata is missing
+
