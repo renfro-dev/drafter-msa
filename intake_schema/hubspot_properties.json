@@ -1,0 +1,292 @@
+[
+  {
+    "name": "client_first_name",
+    "label": "Client First Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "basic_information",
+    "description": "Given name of client."
+  },
+  {
+    "name": "client_last_name",
+    "label": "Client Last Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "basic_information",
+    "description": "Family name of client."
+  },
+  {
+    "name": "client_email",
+    "label": "Client Email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "basic_information",
+    "description": "Email for communications."
+  },
+  {
+    "name": "client_phone",
+    "label": "Client Phone",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "basic_information",
+    "description": "Primary phone number."
+  },
+  {
+    "name": "client_address",
+    "label": "Client Address",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "basic_information",
+    "description": "Street, city, state, ZIP."
+  },
+  {
+    "name": "jurisdiction_state",
+    "label": "Jurisdiction State",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "basic_information",
+    "options": [
+      {
+        "label": "CA",
+        "value": "CA"
+      },
+      {
+        "label": "NY",
+        "value": "NY"
+      },
+      {
+        "label": "TX",
+        "value": "TX"
+      },
+      {
+        "label": "FL",
+        "value": "FL"
+      },
+      {
+        "label": "WA",
+        "value": "WA"
+      },
+      {
+        "label": "IL",
+        "value": "IL"
+      },
+      {
+        "label": "AZ",
+        "value": "AZ"
+      },
+      {
+        "label": "CO",
+        "value": "CO"
+      },
+      {
+        "label": "NJ",
+        "value": "NJ"
+      },
+      {
+        "label": "MA",
+        "value": "MA"
+      },
+      {
+        "label": "PA",
+        "value": "PA"
+      },
+      {
+        "label": "GA",
+        "value": "GA"
+      },
+      {
+        "label": "NC",
+        "value": "NC"
+      },
+      {
+        "label": "VA",
+        "value": "VA"
+      },
+      {
+        "label": "OH",
+        "value": "OH"
+      },
+      {
+        "label": "MI",
+        "value": "MI"
+      },
+      {
+        "label": "MN",
+        "value": "MN"
+      },
+      {
+        "label": "OR",
+        "value": "OR"
+      },
+      {
+        "label": "MD",
+        "value": "MD"
+      },
+      {
+        "label": "TN",
+        "value": "TN"
+      }
+    ],
+    "description": "State governing the MSA."
+  },
+  {
+    "name": "case_number",
+    "label": "Case Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "case_information",
+    "description": "Court case number if assigned."
+  },
+  {
+    "name": "filing_county",
+    "label": "Filing County",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "case_information",
+    "description": "County of filing."
+  },
+  {
+    "name": "date_of_separation",
+    "label": "Date of Separation",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "case_information",
+    "description": "Date of separation for community/separate property analysis."
+  },
+  {
+    "name": "marriage_date",
+    "label": "Marriage Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "case_information",
+    "description": "Date of marriage."
+  },
+  {
+    "name": "children_present",
+    "label": "Children Present",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "case_information",
+    "description": "Whether the parties have minor children."
+  },
+  {
+    "name": "domestic_violence_factors",
+    "label": "Domestic Violence Factors",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "case_information",
+    "description": "Presence of DV considerations affecting support/custody."
+  },
+  {
+    "name": "client_gross_monthly_income",
+    "label": "Client Gross Monthly Income",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "financial_information",
+    "description": "Gross monthly income of client in USD."
+  },
+  {
+    "name": "opposing_gross_monthly_income",
+    "label": "Opposing Gross Monthly Income",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "financial_information",
+    "description": "Gross monthly income of opposing party in USD."
+  },
+  {
+    "name": "community_property_assets",
+    "label": "Community Property Assets",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "financial_information",
+    "description": "Summary list of community assets with rough values."
+  },
+  {
+    "name": "separate_property_assets",
+    "label": "Separate Property Assets",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "financial_information",
+    "description": "Summary list of separate assets with rough values."
+  },
+  {
+    "name": "debts_summary",
+    "label": "Debts Summary",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "financial_information",
+    "description": "Community and separate debts with rough balances."
+  },
+  {
+    "name": "business_ownership",
+    "label": "Business Ownership Present",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "financial_information",
+    "description": "Whether either party owns a business."
+  },
+  {
+    "name": "retirement_accounts_present",
+    "label": "Retirement Accounts Present",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "financial_information",
+    "description": "Whether retirement accounts exist (QDRO likely)."
+  },
+  {
+    "name": "spousal_support_sought",
+    "label": "Spousal Support Sought",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "financial_information",
+    "description": "Whether spousal support is requested."
+  },
+  {
+    "name": "opposing_first_name",
+    "label": "Opposing First Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "opposing_party_information",
+    "description": "Given name of opposing party."
+  },
+  {
+    "name": "opposing_last_name",
+    "label": "Opposing Last Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "opposing_party_information",
+    "description": "Family name of opposing party."
+  },
+  {
+    "name": "opposing_email",
+    "label": "Opposing Email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "opposing_party_information",
+    "description": "Email of opposing party or counsel."
+  },
+  {
+    "name": "opposing_counsel",
+    "label": "Opposing Counsel Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "opposing_party_information",
+    "description": "Name of opposing counsel, if any."
+  },
+  {
+    "name": "confidential_terms_notes",
+    "label": "Confidential Terms Notes",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "sensitive_information",
+    "description": "Notes on confidentiality, restraining orders, sealed filings."
+  },
+  {
+    "name": "child_custody_parenting_plan_ref",
+    "label": "Parenting Plan Reference",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sensitive_information",
+    "description": "Link or ID referencing parenting plan for kids."
+  }
+]

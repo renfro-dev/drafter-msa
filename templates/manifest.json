@@ -1,0 +1,589 @@
+[
+  {
+    "id": "fl-msa-with-children",
+    "name": "Florida Marital Settlement Agreement (with children)",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "kids",
+      "property",
+      "support"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403030/file/902f1.pdf",
+    "local_path": "templates/raw/fl-msa-with-children-florida-marital-settlement-agreement-with-children.bin",
+    "access": "public",
+    "fetched_at": 1759420381
+  },
+  {
+    "id": "fl-msa-no-children",
+    "name": "Florida Marital Settlement Agreement (no children)",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "no_kids",
+      "property",
+      "support"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403032/file/902f2.pdf",
+    "local_path": "templates/raw/fl-msa-no-children-florida-marital-settlement-agreement-no-children.bin",
+    "access": "public",
+    "fetched_at": 1759420382
+  },
+  {
+    "id": "ca-selfhelp-overview",
+    "name": "California Courts Self-Help (Divorce Settlement Overview)",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "general"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/divorce",
+    "local_path": "templates/raw/ca-selfhelp-overview-california-courts-self-help-divorce-settlement-overview.bin",
+    "access": "public",
+    "fetched_at": 1759420384
+  },
+  {
+    "id": "tx-lawhelp-agreed-decree",
+    "name": "TexasLawHelp Agreed Final Decree of Divorce",
+    "jurisdiction": "TX",
+    "use_cases": [
+      "general",
+      "property",
+      "support"
+    ],
+    "source_url": "https://texaslawhelp.org/",
+    "local_path": "templates/raw/tx-lawhelp-agreed-decree-texaslawhelp-agreed-final-decree-of-divorce.bin",
+    "access": "public",
+    "fetched_at": 1759420386
+  },
+  {
+    "id": "fl-parenting-plan-995a",
+    "name": "Florida Parenting Plan (Form 12.995(a))",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "kids"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403079/file/995a.pdf",
+    "local_path": "templates/raw/fl-parenting-plan-995a-florida-parenting-plan-form-12-995-a.bin",
+    "access": "public",
+    "fetched_at": 1759499740
+  },
+  {
+    "id": "fl-parenting-plan-supervised-995b",
+    "name": "Florida Supervised/Safety-Focused Parenting Plan (Form 12.995(b))",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "kids",
+      "dv"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403081/file/995b.pdf",
+    "local_path": "templates/raw/fl-parenting-plan-supervised-995b-florida-supervised-safety-focused-parenting-plan-form-12-995-b.bin",
+    "access": "public",
+    "fetched_at": 1759499741
+  },
+  {
+    "id": "fl-financial-affidavit-short-902b",
+    "name": "Florida Family Law Financial Affidavit (Short Form) 12.902(b)",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "financial"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403012/file/902b.pdf",
+    "local_path": "templates/raw/fl-financial-affidavit-short-902b-florida-family-law-financial-affidavit-short-form-12-902-b.bin",
+    "access": "public",
+    "fetched_at": 1759499743
+  },
+  {
+    "id": "fl-financial-affidavit-long-902c",
+    "name": "Florida Family Law Financial Affidavit (Long Form) 12.902(c)",
+    "jurisdiction": "FL",
+    "use_cases": [
+      "financial"
+    ],
+    "source_url": "https://www.flcourts.gov/content/download/403014/file/902c.pdf",
+    "local_path": "templates/raw/fl-financial-affidavit-long-902c-florida-family-law-financial-affidavit-long-form-12-902-c.bin",
+    "access": "public",
+    "fetched_at": 1759499744
+  },
+  {
+    "id": "ca-selfhelp-property-division",
+    "name": "California Self-Help - Make decisions about property and debts",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "property"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/divorce/property",
+    "local_path": "templates/raw/ca-selfhelp-property-division-california-self-help-make-decisions-about-property-and-debts.html",
+    "access": "public",
+    "fetched_at": 1759503651
+  },
+  {
+    "id": "ca-selfhelp-spousal-support",
+    "name": "California Self-Help - Spousal/Partner Support",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "support"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/divorce/spousal-partner-support",
+    "local_path": "templates/raw/ca-selfhelp-spousal-support-california-self-help-spousal-partner-support.html",
+    "access": "public",
+    "fetched_at": 1759503658
+  },
+  {
+    "id": "ca-selfhelp-parenting-plan",
+    "name": "California Self-Help - Parenting plan",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "kids"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/parenting/parenting-plan",
+    "local_path": "templates/raw/ca-selfhelp-parenting-plan-california-self-help-parenting-plan.html",
+    "access": "public",
+    "fetched_at": 1759503665
+  },
+  {
+    "id": "tx-tlh-divorce-with-children",
+    "name": "TexasLawHelp - Divorce with Children (Agreed)",
+    "jurisdiction": "TX",
+    "use_cases": [
+      "kids",
+      "property",
+      "support"
+    ],
+    "source_url": "https://texaslawhelp.org/guide/divorce-with-children-agreed",
+    "local_path": "templates/raw/tx-tlh-divorce-with-children-texaslawhelp-divorce-with-children-agreed.html",
+    "access": "public",
+    "fetched_at": 1759503670
+  },
+  {
+    "id": "tx-tlh-divorce-without-children",
+    "name": "TexasLawHelp - Divorce without Children (Agreed)",
+    "jurisdiction": "TX",
+    "use_cases": [
+      "no_kids",
+      "property",
+      "support"
+    ],
+    "source_url": "https://texaslawhelp.org/guide/divorce-without-children-agreed",
+    "local_path": "templates/raw/tx-tlh-divorce-without-children-texaslawhelp-divorce-without-children-agreed.html",
+    "access": "public",
+    "fetched_at": 1759503675
+  },
+  {
+    "id": "ca-selfhelp-find-forms-all",
+    "name": "California Self-Help - Find all forms",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "general"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/find-forms/all",
+    "local_path": "templates/raw/ca-selfhelp-find-forms-all-california-self-help-find-all-forms.html",
+    "access": "public",
+    "fetched_at": 1759506779
+  },
+  {
+    "id": "ca-selfhelp-divorce-forms",
+    "name": "California Self-Help - Divorce forms",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "general",
+      "property",
+      "kids",
+      "support"
+    ],
+    "source_url": "https://selfhelp.courts.ca.gov/divorce-forms",
+    "local_path": "templates/raw/ca-selfhelp-divorce-forms-california-self-help-divorce-forms.html",
+    "access": "public",
+    "fetched_at": 1759506788
+  },
+  {
+    "id": "ca-fl-180-judgment",
+    "name": "California FL-180 Judgment (Dissolution/Legal Separation)",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "general"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl180.pdf",
+    "local_path": "templates/raw/ca-fl-180-judgment-california-fl-180-judgment-dissolution-legal-separation.pdf",
+    "access": "public",
+    "fetched_at": 1759509051
+  },
+  {
+    "id": "ca-fl-342-child-support-attach",
+    "name": "California FL-342 Child Support Information and Order Attachment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "kids",
+      "support"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl342.pdf",
+    "local_path": "templates/raw/ca-fl-342-child-support-attach-california-fl-342-child-support-information-and-order-attachment.pdf",
+    "access": "public",
+    "fetched_at": 1759509063
+  },
+  {
+    "id": "ca-fl-343-spousal-support-attach",
+    "name": "California FL-343 Spousal or Partner Support Order Attachment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "support"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl343.pdf",
+    "local_path": "templates/raw/ca-fl-343-spousal-support-attach-california-fl-343-spousal-or-partner-support-order-attachment.pdf",
+    "access": "public",
+    "fetched_at": 1759509190
+  },
+  {
+    "id": "ca-fl-345-property-order-attach",
+    "name": "California FL-345 Property Order Attachment to Judgment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "property"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl345.pdf",
+    "local_path": "templates/raw/ca-fl-345-property-order-attach-california-fl-345-property-order-attachment-to-judgment.pdf",
+    "access": "public",
+    "fetched_at": 1759509338
+  },
+  {
+    "id": "ca-fl-142-schedule-assets-debts",
+    "name": "California FL-142 Schedule of Assets and Debts",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "financial",
+      "property"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl142.pdf",
+    "local_path": "templates/raw/ca-fl-142-schedule-assets-debts-california-fl-142-schedule-of-assets-and-debts.pdf",
+    "access": "public",
+    "fetched_at": 1759509422
+  },
+  {
+    "id": "ca-fl-160-property-declaration",
+    "name": "California FL-160 Property Declaration",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "financial",
+      "property"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl160.pdf",
+    "local_path": "templates/raw/ca-fl-160-property-declaration-california-fl-160-property-declaration.pdf",
+    "access": "public",
+    "fetched_at": 1759509505
+  },
+  {
+    "id": "ca-fl-311-custody-visitation-attachment",
+    "name": "California FL-311 Child Custody and Visitation Application Attachment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "kids"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl311.pdf",
+    "local_path": "templates/raw/ca-fl-311-custody-visitation-attachment-california-fl-311-child-custody-and-visitation-application-attachment.pdf",
+    "access": "public",
+    "fetched_at": 1759509592
+  },
+  {
+    "id": "ca-fl-341-custody-visitation-order-attach",
+    "name": "California FL-341 Child Custody and Visitation (Parenting Time) Order Attachment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "kids"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl341.pdf",
+    "local_path": "templates/raw/ca-fl-341-custody-visitation-order-attach-california-fl-341-child-custody-and-visitation-parenting-time-order-attachment.pdf",
+    "access": "public",
+    "fetched_at": 1759510026
+  },
+  {
+    "id": "ca-fl-344-spousal-support-findings",
+    "name": "California FL-344 Spousal or Partner Support Findings Attachment",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "support"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl344.pdf",
+    "local_path": "templates/raw/ca-fl-344-spousal-support-findings-california-fl-344-spousal-or-partner-support-findings-attachment.pdf",
+    "access": "public",
+    "fetched_at": 1759608416
+  },
+  {
+    "id": "ca-fl-355-stipulation-order-custody",
+    "name": "California FL-355 Stipulation and Order for Custody and/or Visitation of Children",
+    "jurisdiction": "CA",
+    "use_cases": [
+      "kids"
+    ],
+    "source_url": "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl355.pdf",
+    "local_path": "templates/raw/ca-fl-355-stipulation-order-custody-california-fl-355-stipulation-and-order-for-custody-and-or-visitation-of-children.pdf",
+    "access": "public",
+    "fetched_at": 1759608463
+  },
+  {
+    "id": "tx-189163",
+    "name": "TexasLawHelp Form 189163.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.txcourts.gov/media/1442977/189163.pdf",
+    "local_path": "templates/raw/tx-189163-texaslawhelp-form-189163-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767502
+  },
+  {
+    "id": "tx-fm-divad-102-div-no-kids-answer-0",
+    "name": "TexasLawHelp Form fm_divad_102_div_no_kids_answer_0.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm_divad_102_div_no_kids_answer_0.pdf",
+    "local_path": "templates/raw/tx-fm-divad-102-div-no-kids-answer-0-texaslawhelp-form-fm-divad-102-div-no-kids-answer-0-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767507
+  },
+  {
+    "id": "tx-cr-65",
+    "name": "TexasLawHelp Form CR-65.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/Forms/CR-65.pdf",
+    "local_path": "templates/raw/tx-cr-65-texaslawhelp-form-cr-65-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767510
+  },
+  {
+    "id": "tx-dr-1",
+    "name": "TexasLawHelp Form DR-1.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/InternetForms/Forms/DR-1.pdf",
+    "local_path": "templates/raw/tx-dr-1-texaslawhelp-form-dr-1-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767513
+  },
+  {
+    "id": "tx-fm-mod1-200-mod-order-final-v2018-09",
+    "name": "TexasLawHelp Form fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "local_path": "templates/raw/tx-fm-mod1-200-mod-order-final-v2018-09-texaslawhelp-form-fm-mod1-200-mod-order-final-v2018-09-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767592
+  },
+  {
+    "id": "tx-howtoreadv2",
+    "name": "TexasLawHelp Form howtoreadv2.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "http://hssph.net/legalrm/howtoreadv2.pdf",
+    "local_path": "templates/raw/tx-howtoreadv2-texaslawhelp-form-howtoreadv2-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767618
+  },
+  {
+    "id": "tx-secondarysources",
+    "name": "TexasLawHelp Form secondarysources.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.law.georgetown.edu/academics/academic-programs/legal-writing-scholarship/writing-center/upload/secondarysources.pdf",
+    "local_path": "templates/raw/tx-secondarysources-texaslawhelp-form-secondarysources-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767620
+  },
+  {
+    "id": "tx-cr-63",
+    "name": "TexasLawHelp Form cr-63.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/forms/cr-63.pdf",
+    "local_path": "templates/raw/tx-cr-63-texaslawhelp-form-cr-63-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759767759
+  },
+  {
+    "id": "tx-familylawresearchguide",
+    "name": "TexasLawHelp Form familylawresearchguide.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/familylawresearchguide.pdf",
+    "local_path": "templates/raw/tx-familylawresearchguide-texaslawhelp-form-familylawresearchguide-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759768147
+  },
+  {
+    "id": "tx-189163",
+    "name": "TexasLawHelp Form 189163.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.txcourts.gov/media/1442977/189163.pdf",
+    "local_path": "templates/raw/tx-189163-texaslawhelp-form-189163-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769324
+  },
+  {
+    "id": "tx-fm-divad-102-div-no-kids-answer-0",
+    "name": "TexasLawHelp Form fm_divad_102_div_no_kids_answer_0.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm_divad_102_div_no_kids_answer_0.pdf",
+    "local_path": "templates/raw/tx-fm-divad-102-div-no-kids-answer-0-texaslawhelp-form-fm-divad-102-div-no-kids-answer-0-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769328
+  },
+  {
+    "id": "tx-cr-65",
+    "name": "TexasLawHelp Form CR-65.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/Forms/CR-65.pdf",
+    "local_path": "templates/raw/tx-cr-65-texaslawhelp-form-cr-65-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769330
+  },
+  {
+    "id": "tx-dr-1",
+    "name": "TexasLawHelp Form DR-1.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/InternetForms/Forms/DR-1.pdf",
+    "local_path": "templates/raw/tx-dr-1-texaslawhelp-form-dr-1-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769335
+  },
+  {
+    "id": "tx-fm-mod1-200-mod-order-final-v2018-09",
+    "name": "TexasLawHelp Form fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "local_path": "templates/raw/tx-fm-mod1-200-mod-order-final-v2018-09-texaslawhelp-form-fm-mod1-200-mod-order-final-v2018-09-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769413
+  },
+  {
+    "id": "tx-howtoreadv2",
+    "name": "TexasLawHelp Form howtoreadv2.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "http://hssph.net/legalrm/howtoreadv2.pdf",
+    "local_path": "templates/raw/tx-howtoreadv2-texaslawhelp-form-howtoreadv2-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769427
+  },
+  {
+    "id": "tx-secondarysources",
+    "name": "TexasLawHelp Form secondarysources.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.law.georgetown.edu/academics/academic-programs/legal-writing-scholarship/writing-center/upload/secondarysources.pdf",
+    "local_path": "templates/raw/tx-secondarysources-texaslawhelp-form-secondarysources-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769429
+  },
+  {
+    "id": "tx-cr-63",
+    "name": "TexasLawHelp Form cr-63.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/forms/cr-63.pdf",
+    "local_path": "templates/raw/tx-cr-63-texaslawhelp-form-cr-63-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769544
+  },
+  {
+    "id": "tx-familylawresearchguide",
+    "name": "TexasLawHelp Form familylawresearchguide.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/familylawresearchguide.pdf",
+    "local_path": "templates/raw/tx-familylawresearchguide-texaslawhelp-form-familylawresearchguide-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759769932
+  },
+  {
+    "id": "tx-189163",
+    "name": "TexasLawHelp Form 189163.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.txcourts.gov/media/1442977/189163.pdf",
+    "local_path": "templates/raw/tx-189163-texaslawhelp-form-189163-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770437
+  },
+  {
+    "id": "tx-fm-divad-102-div-no-kids-answer-0",
+    "name": "TexasLawHelp Form fm_divad_102_div_no_kids_answer_0.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm_divad_102_div_no_kids_answer_0.pdf",
+    "local_path": "templates/raw/tx-fm-divad-102-div-no-kids-answer-0-texaslawhelp-form-fm-divad-102-div-no-kids-answer-0-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770440
+  },
+  {
+    "id": "tx-cr-65",
+    "name": "TexasLawHelp Form CR-65.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/Forms/CR-65.pdf",
+    "local_path": "templates/raw/tx-cr-65-texaslawhelp-form-cr-65-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770443
+  },
+  {
+    "id": "tx-dr-1",
+    "name": "TexasLawHelp Form DR-1.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/InternetForms/Forms/DR-1.pdf",
+    "local_path": "templates/raw/tx-dr-1-texaslawhelp-form-dr-1-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770445
+  },
+  {
+    "id": "tx-fm-mod1-200-mod-order-final-v2018-09",
+    "name": "TexasLawHelp Form fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/fm-mod1-200_mod_order_final_v2018-09.pdf",
+    "local_path": "templates/raw/tx-fm-mod1-200-mod-order-final-v2018-09-texaslawhelp-form-fm-mod1-200-mod-order-final-v2018-09-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770523
+  },
+  {
+    "id": "tx-howtoreadv2",
+    "name": "TexasLawHelp Form howtoreadv2.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "http://hssph.net/legalrm/howtoreadv2.pdf",
+    "local_path": "templates/raw/tx-howtoreadv2-texaslawhelp-form-howtoreadv2-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770535
+  },
+  {
+    "id": "tx-secondarysources",
+    "name": "TexasLawHelp Form secondarysources.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.law.georgetown.edu/academics/academic-programs/legal-writing-scholarship/writing-center/upload/secondarysources.pdf",
+    "local_path": "templates/raw/tx-secondarysources-texaslawhelp-form-secondarysources-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770535
+  },
+  {
+    "id": "tx-cr-63",
+    "name": "TexasLawHelp Form cr-63.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://www.dps.texas.gov/internetforms/forms/cr-63.pdf",
+    "local_path": "templates/raw/tx-cr-63-texaslawhelp-form-cr-63-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759770647
+  },
+  {
+    "id": "tx-familylawresearchguide",
+    "name": "TexasLawHelp Form familylawresearchguide.pdf",
+    "jurisdiction": "TX",
+    "use_cases": [],
+    "source_url": "https://texaslawhelp.org/sites/default/files/familylawresearchguide.pdf",
+    "local_path": "templates/raw/tx-familylawresearchguide-texaslawhelp-form-familylawresearchguide-pdf.pdf",
+    "access": "public",
+    "fetched_at": 1759771034
+  }
+]

@@ -1,0 +1,1 @@
+- Child support shall be set consistent with Florida guidelines; the parties will exchange required financial disclosures and attach guideline worksheets as needed.

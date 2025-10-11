@@ -1,0 +1,1 @@
+- If applicable, the parties will cooperate to effectuate QDROs for any retirement accounts and allocate costs.

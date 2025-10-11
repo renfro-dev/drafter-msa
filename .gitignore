@@ -1,0 +1,57 @@
+# Node / TypeScript
+node_modules/
+dist/
+build/
+.turbo/
+.parcel-cache/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/**
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.hypothesis/
+
+# macOS
+.DS_Store
+
+# Logs and outputs
+logs/
+context/orchestration/logs/
+feedback/out/
+drafts/**
+!drafts/.gitkeep
+
+# Scraped/raw artifacts
+templates/raw/**
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+

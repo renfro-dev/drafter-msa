@@ -1,0 +1,1 @@
+- The Parenting Plan (Form 12.995) is incorporated by reference and governs timesharing, decision-making, and transportation.

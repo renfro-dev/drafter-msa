@@ -1,0 +1,1 @@
+- The Parties divide marital assets and debts as listed in Attachment A and Attachment B. Each represents disclosure is complete to the best of their knowledge.

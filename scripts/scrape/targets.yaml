@@ -1,0 +1,258 @@
+- id: fl-msa-with-children
+  name: Florida Marital Settlement Agreement (with children)
+  jurisdiction: FL
+  use_cases: [kids, property, support]
+  url: https://www.flcourts.gov/content/download/403030/file/902f1.pdf
+
+- id: fl-msa-no-children
+  name: Florida Marital Settlement Agreement (no children)
+  jurisdiction: FL
+  use_cases: [no_kids, property, support]
+  url: https://www.flcourts.gov/content/download/403032/file/902f2.pdf
+
+- id: ny-stipulation-of-settlement
+  name: New York Stipulation of Settlement (Divorce)
+  jurisdiction: NY
+  use_cases: [general, property, support]
+  url: https://www.nycourts.gov/divorce/
+
+- id: ca-selfhelp-overview
+  name: California Courts Self-Help (Divorce Settlement Overview)
+  jurisdiction: CA
+  use_cases: [general]
+  url: https://selfhelp.courts.ca.gov/divorce
+
+- id: tx-lawhelp-agreed-decree
+  name: TexasLawHelp Agreed Final Decree of Divorce
+  jurisdiction: TX
+  use_cases: [general, property, support]
+  url: https://texaslawhelp.org/
+
+- id: wa-washingtonlawhelp-divorce
+  name: WashingtonLawHelp Divorce - Agreed Cases
+  jurisdiction: WA
+  use_cases: [general]
+  url: https://www.washingtonlawhelp.org/
+
+- id: il-illinoislegalaid-separation-agreement
+  name: Illinois Legal Aid Online - Separation/Settlement Agreement
+  jurisdiction: IL
+  use_cases: [general, property, support]
+  url: https://www.illinoislegalaid.org/
+
+- id: co-judicial-family-forms
+  name: Colorado Judicial Branch - Family Law Forms
+  jurisdiction: CO
+  use_cases: [general]
+  url: https://www.courts.state.co.us/Forms/Forms_List.cfm?Form_Type_ID=108
+
+- id: az-courts-family-forms
+  name: Arizona Courts Self-Service Center - Family Law Forms
+  jurisdiction: AZ
+  use_cases: [general]
+  url: https://www.azcourts.gov/selfservicecenter/Family-Law-Forms
+
+- id: nj-courts-self-help
+  name: New Jersey Courts - Self-Help
+  jurisdiction: NJ
+  use_cases: [general]
+  url: https://www.njcourts.gov/self-help
+
+- id: ma-masslegalhelp-separation
+  name: MassLegalHelp - Separation Agreement
+  jurisdiction: MA
+  use_cases: [general, property, support]
+  url: https://www.masslegalhelp.org/
+
+- id: pa-palawhelp-divorce
+  name: PALawHelp - Divorce Resources
+  jurisdiction: PA
+  use_cases: [general]
+  url: https://www.palawhelp.org/
+
+- id: ga-georgialegalaid-divorce
+  name: GeorgiaLegalAid - Divorce Settlement Info
+  jurisdiction: GA
+  use_cases: [general]
+  url: https://www.georgialegalaid.org/
+
+- id: nc-lawhelpnc-divorce
+  name: LawHelpNC - Divorce Resources
+  jurisdiction: NC
+  use_cases: [general]
+  url: https://www.lawhelpnc.org/
+
+- id: va-valegalaid-divorce
+  name: Virginia Legal Aid - Divorce & Separation
+  jurisdiction: VA
+  use_cases: [general]
+  url: https://www.valegalaid.org/
+
+- id: oh-ohiolegalhelp-divorce
+  name: Ohio Legal Help - Divorce
+  jurisdiction: OH
+  use_cases: [general]
+  url: https://www.ohiolegalhelp.org/
+
+- id: mi-michiganlegalhelp-divorce
+  name: Michigan Legal Help - Divorce with and without Minor Children
+  jurisdiction: MI
+  use_cases: [kids, no_kids]
+  url: https://michiganlegalhelp.org/
+
+- id: mn-mncourts-divorce
+  name: Minnesota Judicial Branch - Divorce
+  jurisdiction: MN
+  use_cases: [general]
+  url: https://www.mncourts.gov/Help-Topics/Divorce.aspx
+
+- id: or-ojd-family-forms
+  name: Oregon Judicial Department - Family Law Forms
+  jurisdiction: OR
+  use_cases: [general]
+  url: https://www.courts.oregon.gov/forms/Pages/familylaw.aspx
+
+- id: md-peopleslaw-divorce
+  name: People's Law Library of Maryland - Divorce
+  jurisdiction: MD
+  use_cases: [general]
+  url: https://www.peoples-law.org/
+
+- id: tn-tncourts-family-forms
+  name: Tennessee Courts - Family Law Forms
+  jurisdiction: TN
+  use_cases: [general]
+  url: https://www.tncourts.gov/
+
+# California focused additions
+- id: ca-selfhelp-property-division
+  name: California Self-Help - Make decisions about property and debts
+  jurisdiction: CA
+  use_cases: [property]
+  url: https://selfhelp.courts.ca.gov/divorce/property
+
+- id: ca-selfhelp-spousal-support
+  name: California Self-Help - Spousal/Partner Support
+  jurisdiction: CA
+  use_cases: [support]
+  url: https://selfhelp.courts.ca.gov/divorce/spousal-partner-support
+
+- id: ca-selfhelp-parenting-plan
+  name: California Self-Help - Parenting plan
+  jurisdiction: CA
+  use_cases: [kids]
+  url: https://selfhelp.courts.ca.gov/parenting/parenting-plan
+
+# Florida focused additions
+- id: fl-parenting-plan-995a
+  name: Florida Parenting Plan (Form 12.995(a))
+  jurisdiction: FL
+  use_cases: [kids]
+  url: https://www.flcourts.gov/content/download/403079/file/995a.pdf
+
+- id: fl-parenting-plan-supervised-995b
+  name: Florida Supervised/Safety-Focused Parenting Plan (Form 12.995(b))
+  jurisdiction: FL
+  use_cases: [kids, dv]
+  url: https://www.flcourts.gov/content/download/403081/file/995b.pdf
+
+- id: fl-financial-affidavit-short-902b
+  name: Florida Family Law Financial Affidavit (Short Form) 12.902(b)
+  jurisdiction: FL
+  use_cases: [financial]
+  url: https://www.flcourts.gov/content/download/403012/file/902b.pdf
+
+- id: fl-financial-affidavit-long-902c
+  name: Florida Family Law Financial Affidavit (Long Form) 12.902(c)
+  jurisdiction: FL
+  use_cases: [financial]
+  url: https://www.flcourts.gov/content/download/403014/file/902c.pdf
+
+# Texas focused additions
+- id: tx-tlh-divorce-with-children
+  name: TexasLawHelp - Divorce with Children (Agreed)
+  jurisdiction: TX
+  use_cases: [kids, property, support]
+  url: https://texaslawhelp.org/guide/divorce-with-children-agreed
+
+- id: tx-tlh-divorce-without-children
+  name: TexasLawHelp - Divorce without Children (Agreed)
+  jurisdiction: TX
+  use_cases: [no_kids, property, support]
+  url: https://texaslawhelp.org/guide/divorce-without-children-agreed
+
+# California Judicial Council PDFs (authoritative attachments supporting settlement)
+- id: ca-fl-180-judgment
+  name: California FL-180 Judgment (Dissolution/Legal Separation)
+  jurisdiction: CA
+  use_cases: [general]
+  url: https://www.courts.ca.gov/documents/fl-180.pdf
+
+- id: ca-fl-342-child-support-attach
+  name: California FL-342 Child Support Information and Order Attachment
+  jurisdiction: CA
+  use_cases: [kids, support]
+  url: https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl342.pdf
+
+- id: ca-fl-343-spousal-support-attach
+  name: California FL-343 Spousal or Partner Support Order Attachment
+  jurisdiction: CA
+  use_cases: [support]
+  url: https://www.courts.ca.gov/documents/fl-343.pdf
+
+- id: ca-fl-345-property-order-attach
+  name: California FL-345 Property Order Attachment to Judgment
+  jurisdiction: CA
+  use_cases: [property]
+  url: https://www.courts.ca.gov/documents/fl-345.pdf
+
+- id: ca-fl-142-schedule-assets-debts
+  name: California FL-142 Schedule of Assets and Debts
+  jurisdiction: CA
+  use_cases: [financial, property]
+  url: https://www.courts.ca.gov/documents/fl-142.pdf
+
+- id: ca-fl-160-property-declaration
+  name: California FL-160 Property Declaration
+  jurisdiction: CA
+  use_cases: [financial, property]
+  url: https://www.courts.ca.gov/documents/fl-160.pdf
+
+- id: ca-fl-311-custody-visitation-attachment
+  name: California FL-311 Child Custody and Visitation Application Attachment
+  jurisdiction: CA
+  use_cases: [kids]
+  url: https://www.courts.ca.gov/documents/fl-311.pdf
+
+- id: ca-fl-341-custody-visitation-order-attach
+  name: California FL-341 Child Custody and Visitation (Parenting Time) Order Attachment
+  jurisdiction: CA
+  use_cases: [kids]
+  url: https://www.courts.ca.gov/documents/fl-341.pdf
+
+- id: ca-fl-344-spousal-support-findings
+  name: California FL-344 Spousal or Partner Support Findings Attachment
+  jurisdiction: CA
+  use_cases: [support]
+  url: https://www.courts.ca.gov/documents/fl-344.pdf
+
+- id: ca-fl-355-stipulation-order-custody
+  name: California FL-355 Stipulation and Order for Custody and/or Visitation of Children
+  jurisdiction: CA
+  use_cases: [kids]
+  url: https://www.courts.ca.gov/documents/fl-355.pdf
+
+# California Self-Help forms indexes (authoritative listings)
+- id: ca-selfhelp-find-forms-all
+  name: California Self-Help - Find all forms
+  jurisdiction: CA
+  use_cases: [general]
+  url: https://selfhelp.courts.ca.gov/find-forms/all
+
+- id: ca-selfhelp-divorce-forms
+  name: California Self-Help - Divorce forms
+  jurisdiction: CA
+  use_cases: [general, property, kids, support]
+  url: https://selfhelp.courts.ca.gov/divorce-forms
+
+

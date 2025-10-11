@@ -1,0 +1,27 @@
+name,label,type,fieldType,groupName,description
+client_first_name,Client First Name,string,text,basic_information,Given name of client.
+client_last_name,Client Last Name,string,text,basic_information,Family name of client.
+client_email,Client Email,string,text,basic_information,Email for communications.
+client_phone,Client Phone,string,text,basic_information,Primary phone number.
+client_address,Client Address,string,textarea,basic_information,"Street, city, state, ZIP."
+jurisdiction_state,Jurisdiction State,enumeration,select,basic_information,State governing the MSA.
+case_number,Case Number,string,text,case_information,Court case number if assigned.
+filing_county,Filing County,string,text,case_information,County of filing.
+date_of_separation,Date of Separation,date,date,case_information,Date of separation for community/separate property analysis.
+marriage_date,Marriage Date,date,date,case_information,Date of marriage.
+children_present,Children Present,bool,booleancheckbox,case_information,Whether the parties have minor children.
+domestic_violence_factors,Domestic Violence Factors,bool,booleancheckbox,case_information,Presence of DV considerations affecting support/custody.
+client_gross_monthly_income,Client Gross Monthly Income,number,number,financial_information,Gross monthly income of client in USD.
+opposing_gross_monthly_income,Opposing Gross Monthly Income,number,number,financial_information,Gross monthly income of opposing party in USD.
+community_property_assets,Community Property Assets,string,textarea,financial_information,Summary list of community assets with rough values.
+separate_property_assets,Separate Property Assets,string,textarea,financial_information,Summary list of separate assets with rough values.
+debts_summary,Debts Summary,string,textarea,financial_information,Community and separate debts with rough balances.
+business_ownership,Business Ownership Present,bool,booleancheckbox,financial_information,Whether either party owns a business.
+retirement_accounts_present,Retirement Accounts Present,bool,booleancheckbox,financial_information,Whether retirement accounts exist (QDRO likely).
+spousal_support_sought,Spousal Support Sought,bool,booleancheckbox,financial_information,Whether spousal support is requested.
+opposing_first_name,Opposing First Name,string,text,opposing_party_information,Given name of opposing party.
+opposing_last_name,Opposing Last Name,string,text,opposing_party_information,Family name of opposing party.
+opposing_email,Opposing Email,string,text,opposing_party_information,Email of opposing party or counsel.
+opposing_counsel,Opposing Counsel Name,string,text,opposing_party_information,"Name of opposing counsel, if any."
+confidential_terms_notes,Confidential Terms Notes,string,textarea,sensitive_information,"Notes on confidentiality, restraining orders, sealed filings."
+child_custody_parenting_plan_ref,Parenting Plan Reference,string,text,sensitive_information,Link or ID referencing parenting plan for kids.
