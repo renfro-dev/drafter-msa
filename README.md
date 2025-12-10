@@ -1,6 +1,6 @@
 ## Marital Settlement Agreement (MSA) Best Practices Engine
 
-This repo hosts an agentic workflow (designed for Cursor multi-agent) to curate authoritative MSA templates, define a HubSpot-compatible intake schema, generate anonymized mock fact patterns, and run a Markdown-based feedback loop for revision/approval.
+This repo hosts an agentic workflow (designed for Cursor multi-agent) to curate authoritative marriage settlement agreement templates, define a HubSpot-compatible intake schema, generate anonymized mock fact patterns, and run a Markdown-based feedback loop for revision/approval.
 
 ### Structure
 - `templates/` — curated templates and `manifest.json` metadata
